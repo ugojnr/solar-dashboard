@@ -1,0 +1,39 @@
+body {
+  font-family: Inter, system-ui, Arial;
+  margin: 0;
+}
+.site-header {
+  background: #0b3d91;
+  color: white;
+  padding: 12px 0;
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+.site-header nav a {
+  color: white;
+  margin-left: 12px;
+  text-decoration: none;
+}
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 12px;
+}
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+button {
+  background: #0b61d6;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
